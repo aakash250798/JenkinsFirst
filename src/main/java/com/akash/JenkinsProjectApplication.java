@@ -12,7 +12,7 @@ public class JenkinsProjectApplication implements CommandLineRunner {
 	public static final Logger logger=LoggerFactory.getLogger(JenkinsProjectApplication.class); 
 	
 	public static void main(String[] args) {
-		logger.info("its a continuous integeration job");
+		logger.info("its a continuous integeration job")
 		SpringApplication.run(JenkinsProjectApplication.class, args);
 	}
 	
