@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinsProjectApplication implements CommandLineRunner {
 	
-	public static final Logger logger=LoggerFactory.getLogger(JenkinsProjectApplication.class); 
+	public static final Logger logger=LoggerFactory.getLogger(JenkinsProjectApplication.class)
 	
 	public static void main(String[] args) {
 		logger.info("its a continuous integeration job");
